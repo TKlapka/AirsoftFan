@@ -1,0 +1,52 @@
+﻿body {
+    background-color: black;
+    background-image: url("http://www.patrolbase.co.uk/UserFiles/image/CategoryBanner/patrol-base-airsoft-uk-clothing-and-footwear-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+}
+
+#title
+{
+  display: flex;
+  background-color: black;
+  background: url("https://pre00.deviantart.net/5c98/th/pre/f/2013/022/6/f/alexvestin_s_multicam_by_alexvestin-d5scgk3.png") center center;
+  justify-content: center;
+}
+
+#title>div{
+  margin: 0;
+  font-size: 30px;
+  padding: 1rem;
+  background-color: RGBA(40, 40, 40, 0.9);
+  color:black;
+  border-radius: 0;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+#page > h1, #page > p
+{
+    text-align: center;
+}
+
+#page
+{
+    overflow: auto;   
+    margin-bottom: 0.5rem;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: #fff;
+}
+
+#page
+    {
+        padding-top:1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 100%;
+        margin-left:0;
+        margin-right:0;
+        margin-bottom: 0;
+    } 
